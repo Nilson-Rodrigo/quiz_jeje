@@ -22,13 +22,20 @@ Este projeto foi desenvolvido como parte de um trabalho acadêmico.
 
 1. Tenha o Node.js instalado na sua máquina.
 2. Clone o repositório ou baixe o código.
-3. No terminal, acesse a pasta raiz (\quiz_app\) e instale as dependências executando:
-   \\\ash
+3. No terminal, acesse a pasta raiz (`quiz_app`) e instale as dependências executando:
+   ```bash
    npm install
-   \\\
+   ```
 4. Rode o ambiente de desenvolvimento local usando:
-   \\\ash
+   ```bash
    npm run dev
-   \\\
+   ```
 5. Acesse http://localhost:5173 e aproveite!
+
+## ☁️ Deploy na Vercel
+
+O projeto já está configurado para publicação na Vercel. 
+Foi incluído o arquivo `vercel.json` para garantir que o roteamento interno do `react-router-dom` funcione corretamente (evitando erros 404 ao recarregar rotas).
+
+Para fazer o deploy, basta conectar o repositório na [Vercel](https://vercel.com/) e manter as configurações padrão (Framework Preset: **Vite**).
 
