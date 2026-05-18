@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-quiz-dark: #000000;
+  --color-quiz-yellow: #ffcf2f;
+  --color-quiz-purple: #5f2b9b;
+  --color-quiz-coral: #fb7185;
+  --radius-quiz: 1.75rem;
+  --font-quiz: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+:root {
+  font-family: var(--font-quiz);
+  color: #ffffff;
+  background: #000000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #000000;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
